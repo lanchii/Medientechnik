@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<style>
+    h1{
+        font-family: Arial sans-serif;
+        text-align: center;
+    }
+    table{
+        width: 25%;
+        margin: 3% auto;
+    }
+    .table1{
+        border: 2px solid black;
+        border-collapse: collapse;
+        font-family: 'Abril Fatface', cursive;
+    }
+    th{
+        text-align: center;
+    }
+    td, th {
+        border: 1px solid #dddddd;
+        padding: 10px;
+    }
+    .grau{
+        background-color: lightgray;
+    }
+    .table3{
+        border-collapse: collapse;
+        border:6px blue solid;
+        width:40%;
+    }
+    thead{
+        background-color:gray;
+        color:white;
+    }
+    tfoot{
+        font-style: italic;
+    }
+    </style>
+</head>
+<body>
+    <!--Übung 1-->
+    <h1>Übung 1</h1>
+    
+    <table class="table1" border="1">
+        <tr>
+            <th colspan="2">KONTAKT "Moviemento"</th>
+        </tr>
+        <tr class="grau">
+            <td>Adresse</td>
+            <td>Damentzstraße 30,4020 Linz</td>
+        </tr>
+        <tr>
+            <td>Telefon</td>
+            <td>0732784090</td>
+        </tr>
+        <tr class="grau">
+            <td>E-Mail</td>
+            <td>movie@moviemento.at</td>
+        </tr>
+    </table>
+    <br>
+    <!--Übung 2-->
+    <h1>Übung 2</h1>
+    
+    <table border="1">
+            <caption>Programm vom 16. bis 18. November</caption>
+        <tr>
+            <th>Film</th>
+            <th>Fr</th>
+            <th>Sa</th>
+            <th>So</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Suspiria</td>
+            <td rowspan="2">20:30</td>
+            <td>13:15</td>
+            <td rowspan="2">20:00</td>
+        </tr>
+        <tr>
+            <td>20:30</td>
+        </tr>
+        <tr>
+            <td rowspan="2">A Star is Born</td>
+            <td rowspan="2">15:45</td>
+            <td rowspan="2">17:30</td>
+            <td>17:00</td>
+        </tr>
+        <tr>
+            <td>20:00</td>
+        </tr>
+        <tr>
+            <td>Aufbrauch zum Mond</td>
+            <td>20:30</td>
+            <td>20:00</td>
+            <td>20:30</td>
+        </tr>
+    </table>
+    <br>
+    <!--Übung 3-->
+    <h1>Übung 3</h1>
+    
+    <table class="table3" border="1">
+        <thead>
+            <tr>
+                <th>Betriebssysteme</th>
+                <th>Webbrowser</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Windows</td>
+                <td>Mozilla Firefox</td>
+            </tr>
+            <tr>
+                <td>Mac OS X</td>
+                <td>Google Chrome</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>auch Linux, Solaris, Symbian usw.</td>
+                <td>auch Safari,Internet Explorer usw.</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    </body>
+</html>
