@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<title>Semester 2 Projekt</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="">
+</head>
+
+<style> 
+    
+  h1{
+      font-size: 80px;
+      text-align:center;
+      text-decoration: underline;
+  }   
+      
+  img { width: 100%; height:auto}
+
+  .flipbox {
+    perspective: 2000px; 
+    max-width: 600px; 
+    margin-left:auto; margin-right:auto;
+    margin-top: 2em; 
+  }
+  .flipbox:hover .flipper, .flipbox.hover .flipper { 
+    transform: rotateY(180deg); 
+  }
+  .flipbox, .front, .back {
+    width: 270px;height: 202px; 
+  }    
+  
+  @media (min-width: 640px) {
+    .flipbox, .front, .back {
+      width: 600px;height: 448px; 
+    }
+  }
+  .flipper {
+    position: relative;
+    transition: 1s;
+    transform-style: preserve-3d;
+  }
+
+  .front, .back {
+    position: absolute;top: 0;left: 0;
+    -webkit-backface-visibility:hidden;
+    backface-visibility: hidden;
+  }
+
+  .front {transform: rotateY(0deg);}
+  .back {transform: rotateY(180deg);}    
+      
+  #apfelbox { 
+   position:relative; 
+   width: 300px; height: 300px;
+   margin: 20% auto;
+  }
+
+  #apfelgrin { 
+   width: 100%; height: auto; 
+   position: absolute; 
+   opacity: 0; 
+   transition: opacity 1s; 
+  }
+
+  #apfelgrin:hover {
+    opacity: 1; 
+    transition: opacity 1s;
+  }
+  #apfeltext { 
+   width: 100%; 
+   height: 80px;
+   text-align: center;
+   font-size: 2em;
+   color: red;
+   position: absolute;
+   top: -9999px;
+   bottom: -9999px;
+   margin: auto;
+   background: white; 
+  }
+</style>
+    
+    <body>
+        
+        <h1>Animation mittels CSS Transitions</h1>
+        
+        <div class="flipbox" ontouchstart="this.classList.toggle('hover');">
+            <div class="flipper">
+                <div class="front">
+                    <img src="traurig.jfif" width="500" height="500" alt="front">
+                </div>
+                <div class="back">
+                    <img src="glücklich.jfif" width="600" height="500" alt="back">
+                </div>
+            </div>
+        </div>
+        
+        <div id="apfelbox">
+          <div id="apfeltext">Apfel</div>
+          <img id="apfelgrin" src="apfel.jpg" width="400" height="400" alt="lohengrin">
+       </div>
+    </body>
+</html>
