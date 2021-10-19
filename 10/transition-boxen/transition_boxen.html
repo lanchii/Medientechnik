@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Transitions</title>
+        <meta name="description" content="CSS Transitions">
+		
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                font-weight: bolder;
+            }
+            h1{
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 2%;
+            }
+            div{
+                width: 40%;
+                height: 50px;
+                background-color: grey;
+                margin: 4%;
+                padding: 5%;
+                box-sizing: border-box;
+                text-align: center;
+            }
+            p{
+                margin:0px;
+                font-size: 200%;
+                color:white;
+            }
+            #box1{
+                transition: background-color 500ms;
+            }
+            #box1:hover{
+                background-color: #B4045F;
+            }
+            #box2{
+                opacity: 50%;
+                transition: opacity 1s;
+            }
+            #box2:hover{
+                opacity: 100%;
+            }
+            #box3{
+    
+                background-color: rgba(0,0,0,0.2);
+                margin: 4%;
+                transition: background-color 1s;
+            }
+            #box3:hover{
+                background-color: rgba(0,0,0,0.5);
+            }
+            #box4{
+    
+                transition: width 0.8s, height 0.8s;
+                transition-timing-function: ease;
+            }
+            #box4:hover{
+                width: 800px;
+                height: 300px;
+            }
+            #box5{
+                transition: box-shadow 0.5s;
+            }
+            #box5:hover{
+                box-shadow: 0px 0px 20px #616161;
+            }
+            #box6{
+                transition: box-shadow 0.3s ease-in-out;
+            }
+            #box6:hover{
+                box-shadow: inset 0 0 0 15px #B4045F;
+            }
+            #box7{
+                width: 20vw;
+                height: 20vw;
+                border-radius: 0%;
+                transition: border-radius 200ms ease-in;
+            }
+            #box7:hover{
+                border-radius: 50%;
+            }
+            #box8{
+                width: 30%;
+                height: 10vw;
+                background-color: #B4045F;
+                transition: background-color 3s, width 3s, height 1.5s;
+            }
+           #box8:hover{
+                background-color: #6c0239;
+                width: 60%;
+                height: 15vw;
+            }
+        </style>
+	</head>
+	<body>
+		<h1>CSS Transitions</h1>
+        <div id="box1"><p>Animierte Farbe</p></div>
+        <div id="box2"><p>Fade in(opacity)</p></div>
+        <div id="box3"><p>Fade in(rgba)</p></div>
+        <div id="box4"><p>Vergrößerung</p></div>
+        <div id="box5"><p>Schlagschatten</p></div>
+        <div id="box6"><p>Inset Border</p></div>
+        <div id="box7"><p>Ecken abrunden</p></div>
+        <div id="box8"><p>Mehrere Animationen</p></div>
+	</body>
+</html>
