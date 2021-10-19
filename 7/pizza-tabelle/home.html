@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+            body{
+                background-image: url(hintergrundbild.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+                font-size: 1.2rem;
+            }
+            table{
+                border: black solid 5px;
+                border-collapse:collapse;
+            }
+            #box{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 4%;
+                background-color: white;
+                margin: 12% 32%;
+                box-shadow: 5px 80px 50px rgba(0, 0, 0, 0.5);
+            }
+            th{
+                background-color:darkred;
+                color: white;
+                text-align: left;
+            }
+            th, td{
+                padding: 0.5rem 4rem 0.5rem 1rem;
+                border: solid black 2px;
+                border-style: dotted;
+            }
+            tfoot{
+                text-align: center;
+                font-size: 0.8rem;
+            }
+
+        </style>
+	</head>
+	<body>
+        <div id="box">
+		<table>
+            <thead>
+                <tr>
+                    <th>Pizza</th>
+                    <th>klein</th>
+                    <th>groß</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Margherita</td>
+                    <td>5,90€</td>
+                    <td>7,50€</td>
+                </tr>
+                <tr>
+                    <td>Napoli</td>
+                    <td>6,20€</td>
+                    <td>8,00€</td>
+                </tr>
+                <tr>
+                    <td>Funghi</td>
+                    <td>6,50€</td>
+                    <td>8,30€</td>
+                </tr>
+                <tr>
+                    <td>Spinaci</td>
+                    <td>6,50€</td>
+                    <td>8,30€</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">kein Zusatzstoffe, nur natürliche Produkte!</td>
+                </tr>
+            </tfoot>
+           </table>
+        </div>
+	</body>
+</html>
