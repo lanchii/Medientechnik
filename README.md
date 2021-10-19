@@ -12,3 +12,47 @@
 8. [ResponsiveNavigation_S](https://github.com/lanchii/Medientechnik/tree/main/8/ResponsiveNavigation_S)
 9. [Workload_NavLeiste](https://github.com/lanchii/Medientechnik/tree/main/9/Workload_NavLeiste)
 10. [transition-boxen](https://github.com/lanchii/Medientechnik/tree/main/10/transition-boxen)
+
+### exercise_einfacheAnimationMittelsCSSTransitions
+
+Hier werden einfache Animationen mittels CSS Transitions gemacht. Sehr interessantes Thema und eine super Website.
+
+### exercise_fixedandstickynav_ausgangsdatei
+
+Hier wird die Navigation mit sticky und fixed ausprobiert. Sehr interessantes Thema und eine super Website.
+
+### exercise_sliding_fS
+
+Hier wird eine Slide-Show mit Bildern ausprobiert. Sehr interessantes Thema und eine super Website.
+
+### exercise_tabelle
+
+Hier wird eine Tabelle ausprobiert auch nicht schlecht gelungen aber sehr interessantes Thema.
+
+### exercise1_video fonts layout_ANGABE
+
+Diese Wbsite hat etwas mit Schriftarten zu tun. Sehr interessantes Thema und eine super Website.
+
+### Formular
+
+Hier wird ein Formular mittels HTML und CSS gemacht. Sehr interessantes Thema und eine super Website.
+
+### pizza-tabelle
+
+Eine tolle Website mit Tabellen. Sehr interessantes Thema und eine super Website.
+
+### ResponsiveNavigation_S
+
+Navigationen werden gemacht. Sehr interessantes Thema und eine super Website.
+
+### Workload_NavLeiste
+
+Navigations Leisten werden ausprobiert. Sehr interessantes Thema und eine super Website.
+
+### ResponsiveNavigation_S
+
+Navigationen werden gemacht. Sehr interessantes Thema und eine super Website.
+
+### transition-boxen
+
+Transition boxen sind toll. Sehr interessantes Thema und eine super Website.
