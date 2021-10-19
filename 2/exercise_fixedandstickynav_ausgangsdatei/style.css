@@ -1,0 +1,82 @@
+/** CSS-Stylesheet
+*	author: HTL Leonding
+**/
+
+/*****general setting*****/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 140%;
+    box-sizing: border-box;
+}
+h1, h2 {
+    text-transform: uppercase;
+}
+header{
+    background-color: silver;
+    text-align: center;
+    padding: 1em;
+}
+
+/*****nav*****/
+nav{
+    position:fixed;
+    top: 0px;
+    width:100%;
+    background-color: black;
+    color:white;
+}
+nav a{
+    color: #fff;
+    font-size: 1.2em;
+    padding: 0.6em 3em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+nav a:hover{
+    background-color: #d6d6d6;
+}
+/*****main content (boxes)*****/
+#main{
+    padding: 2.5em 3em;
+}
+.row{
+    display: flex;
+    width: 100%;
+}
+.box{
+    width: 45%;
+    border: 2px solid black;
+    padding: 1em;
+    margin: 2em auto;
+}
+.box img{
+    width: 30%;
+    float: left;
+    margin: 1em;
+}
+/***** footer *****/
+footer {
+    background-color: silver;
+    padding: 0.8em 0;
+}
+footer p {
+    color: black;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
+/* Responsive layout */
+@media screen and (max-width: 700px) {
+    nav a{
+        display:block;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .box{
+        width:100%;
+    }   
+}
