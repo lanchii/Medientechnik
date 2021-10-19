@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular</title>
+    <style>
+        #firstBox, #secondBox{
+            border: orange dotted 4px;
+            padding: 2em;
+            width: 50%;
+            margin: 2% auto;
+        }
+        h1, h2{
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="firstBox">
+    <h1>PERSÖHNLICHE DATEN</h1>
+    <form method="get" action="1_html_formular_received.html">
+
+        <span>Anrede</span>
+        <input name="gender" type="radio"><label>Herr</label>
+        <input name="gender" type="radio"><label>Frau</label>
+        <br>
+
+
+        <span>Vorname: </span>
+        <input name="name" type="text" value="">
+        <br>
+
+        <span>Nachname: </span>
+        <input name="name" type="text" placeholder="">
+        <br>
+
+        <span>Straße: </span>
+        <input name="name" type="text" placeholder="">
+        <br>
+
+
+        <span>PLZ:</span>
+        <input name="name" type="text" placeholder="">
+        <span>Ort: </span>
+        <input name="name" type="text" placeholder="">
+        <br>
+</div>
+<div id="secondBox">
+        <h2>KURSWÜNSCHE</h2>
+
+        <span>Gewünschter Kurs: </span>
+        <select name="country" id="country">
+            <option value="oe">Aerobic</option>
+            <option value="de">Volleyball</option>
+            <option value="sz">Basketball</option>
+            <option value="it">Handball</option>
+        </select><br>
+
+        <span>Niveau: </span>
+        <input name="gender" type="radio"><label>Anfänger</label>
+        <input name="gender" type="radio"><label>Fortgeschritten</label>
+        <br>
+        <input name="gender" type="radio"><label>AGB gelesen?</label>
+        <br><br>
+
+        <input type="submit" value="Absenden">
+</div>
+    </form>
+
+</body>
+
+</html>
